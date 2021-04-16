@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(204, 186, 124)00;
+}
+
+
+.ZoneText {
+  background-color: #808080;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.ZoneTextbis {
+  background-color: #808080;
+  padding: 20px;
+  margin-top: 20px;
+  text-align : center;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(93, 121, 174);
+  margin-top: 20px;
+}
+
+.box {
+	background : rgb(65,58,39);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+section {
+	color : rgb(65,58,39);
+}
