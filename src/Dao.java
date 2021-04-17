@@ -7,8 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 
 
 public class Dao implements UserDao {
@@ -79,11 +77,5 @@ public class Dao implements UserDao {
 		return users;
 	}
 	
-	public Dao setStorage(ServletContext storage)
-	{
-		this.storage = storage;
-		return this;
-	}
-
+	
 }
-
