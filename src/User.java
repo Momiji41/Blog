@@ -1,51 +1,62 @@
 package bdd;
 
-/**
- * Represent a user in the application.
- */
+/*---------Repr√©sentation d'un utilisateur dans l'application---------*/
 public class User {
 	
+	private int id;
 	private String firstname;
 	private String lastname;
 	private String username;
 	private String password1;
 	
-	/*---- rÈcupÈrer le first name -----*/
+	/*---- r√©cup√©rer l'id -----*/
+	public String getId(){
+		return id+ " ";
+	}
+	
+	/*---- d√©finir l'id -----*/
+	public User setId(int id){
+		this.id=id;
+		return this;
+	}
+	
+	
+	/*---- r√©cup√©rer le first name -----*/
 	public String getFirstname() {
 		return firstname;
 	}
 	
-	/*---- DÈfinir le first name -----*/
+	/*---- D√©finir le first name -----*/
 	public User setFirstname(String firstname) {
 		this.firstname = firstname;
 		return this;
 	}
 	
-	/*---- rÈcupÈrer le last name -----*/
+	/*---- r√©cup√©rer le last name -----*/
 	public String getLastname() {
 		return lastname;
 	}
 	
-	/*---- DÈfinir le last name -----*/
+	/*---- D√©finir le last name -----*/
 	public User setLastname(String lastname) {
 		this.lastname = lastname;
 		return this;
 	}
-	/*---- rÈcupÈrer le nom d'utilisateur -----*/
+	/*---- r√©cup√©rer le nom d'utilisateur -----*/
 	public String getUsername() {
 		return username;
 	}
-	/*---- DÈfinir le nom d'utilisateurs -----*/
+	/*---- D√©finir le nom d'utilisateurs -----*/
 	public User setUsername(String username) {
 		this.username = username;
 		return this;
 	}
-	/*---- DÈfinir le password1 -----*/
+	/*---- D√©finir le password1 -----*/
 	public String getPassword() {
 		return password1;
 	}
 	
-	/*---- DÈfinir le password1 -----*/
+	/*---- D√©finir le password1 -----*/
 	public User setPassword(String password) {
 		this.password1 = password;
 		return this;
