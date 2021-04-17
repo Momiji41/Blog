@@ -1,16 +1,1 @@
--------Création de la BDD SQL nommé "user"--------
-Create table `user` (
-`id` integer not null AUTO_INCREMENT Primary key,
-`first_name` varchar(45) NOT NULL,
-`last_name` varchar(45) NOT NULL,
-`username` varchar(45) NOT NULL,
-`password` varchar(45) NOT NULL) CHARSET=utf8;
-
---------Insertion d'un nouvel utilisateur-----------
-Insert into `user` ( `first name`, `last_name`, `username`,`password`)
-VALUES
-(getFirstName(),getLastName(),getUsername(),getPassword());
-
-
---------Suppression de la table user-----------
-Alter table `user`;
+je
